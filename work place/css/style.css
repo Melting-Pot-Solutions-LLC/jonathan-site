@@ -8380,13 +8380,15 @@ display:block;
 }
 
 
-
+.megamenu ul > li > a{
+    font-size: 16px;
+}
 
 .header-container .logo a {
-    margin: 30px 5px;
     border: 3px solid white;
-    padding: 5px 9px;
-    max-width: 185px;
+    max-width: 250px;
+    padding:2px 5px;
+    background: #000;
     width: 100%;
 }
 
@@ -8439,16 +8441,16 @@ span.small-text {
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content{
     padding-bottom: 90px;
     padding-top: 70px;
-    color: #b8860b;
+    color: #dab250;
 }
 
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content h3{
-    color: #b8860b
+    color: #fff
 }
 
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content .join a{
-    color: #b8860b;
-    border-color: #b8860b;
+    color: #dab250;
+    border-color: #dab250;
 }
 
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content .join a:hover{
@@ -8456,7 +8458,7 @@ span.small-text {
 }
 
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content .join a:after{
-    background: #b8860b;
+    background: #dab250;
 }
 
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main  .class-content-left{
@@ -8545,21 +8547,33 @@ header.top-nav-collapse{
 
 h1.main-title{
     color: white;
-    line-height: 35px;
+    line-height: 50px;
     text-align: center;
     margin-top: 50px;
 }
 
 h1.main-title span.big-text{
-    font-size: 60px;
+    font-size: 50px;
 }
 
-h1.main-title span.small-text{
-    font-size: 30px;
+h1.main-title span.big-text sup{
+    font-size: 35px;
 }
 
 #secondary-page .slide-container .ms-slide h3.ms-layer{
     text-align: center;
+    left: 0 !important;
+    width: 100% !important;
+    opacity: 1 !important;
+}
+
+#secondary-page .slide-container .ms-slide h5.ms-layer{
+    text-align: center;
+    left: 0 !important;
+    width: 100% !important;
+    opacity: 1 !important;
+    top: 350px;
+    font-size: 50px;
 }
 
 #secondary-page #resources .facts-content {
