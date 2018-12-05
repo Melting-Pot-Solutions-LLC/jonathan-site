@@ -8499,6 +8499,10 @@ span.small-text {
     padding: 20px;
 }
 
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block p{
+    font-size: 16px;
+}
+
 #secondary-page div#about .fit-strong .fit-strong-bg .about-text-block h3{
     font-weight: 700;
 }
@@ -8597,20 +8601,22 @@ h1.main-title span.big-text sup{
 
 
 
-#secondary-page .slide-container .ms-slide h3.ms-layer{
+#secondary-page .slide-container h3.hps-title3{
     text-align: left;
     left: 0 !important;
     width: 1000px !important;
     opacity: 1 !important;
+    display: block !important;
 }
 
-#secondary-page .slide-container .ms-slide h5.ms-layer{
+#secondary-page .slide-container h5.hps-title3{
     text-align: right;
     left: 0 !important;
     width: 1000px !important;
     opacity: 1 !important;
     top: 350px;
     font-size: 30px;
+    display: block !important;
 }
 
 #secondary-page .slide-container .ms-slide h5.ms-layer:before{

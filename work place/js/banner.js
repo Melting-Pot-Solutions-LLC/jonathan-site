@@ -14,6 +14,7 @@
             view:"basic",
 			layout:'fullscreen',
             speed:6,
+			preload: 10,
 			autoplay: true
 		});
 	// End jQuery Banner Index
