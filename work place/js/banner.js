@@ -9,12 +9,13 @@
 		slider.setup('masterslider-index' , {
 			width:1366,
 			height:768,
-			space:5,
-			view:'basic',
+			space:10,
 			layout:'fullscreen',
 			fullscreenMargin:0,
 			loop:true,
-			speed:70
+			speed:5,
+            preload:0,
+			autoplay: true
 		});
 	// End jQuery Banner Index 
 
@@ -32,7 +33,6 @@
     	 space:1,
     	 layout:'fullscreen',
     	 loop:true,
-    	 preload:0,
 		 fullscreenMargin:0,
     	 autoplay:true
 		 

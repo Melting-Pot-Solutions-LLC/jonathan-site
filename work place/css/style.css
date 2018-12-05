@@ -8381,14 +8381,13 @@ display:block;
 
 
 .megamenu ul > li > a{
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .header-container .logo a {
     border: 3px solid white;
     max-width: 250px;
-    padding:2px 5px;
-    background: #000;
+    padding: 7px 5px;
     width: 100%;
 }
 
@@ -8448,6 +8447,10 @@ span.small-text {
     color: #fff
 }
 
+#firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content h3 span.yellow{
+    color: #dab250;
+}
+
 #firs-page section.page.cms-home section.man-girl .container-fluid .row .content-main .class-content .join a{
     color: #dab250;
     border-color: #dab250;
@@ -8488,7 +8491,34 @@ span.small-text {
 
 #secondary-page div#about .fit-strong .fit-strong-bg{
     background: rgba(0, 0, 0, 0.6);
-    padding-bottom: 30px;
+    padding: 50px 0;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block{
+    background: rgba(36, 36, 36, 0.7);
+    padding: 20px;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block h3{
+    font-weight: 700;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block .bolder-text{
+    font-weight: 700;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block .italic-block{
+    font-style: italic;
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block .italic-block h4{
+    font-weight: 700;
+}
+
+#secondary-page div#about .fit-strong .fit-strong-bg .about-text-block .italic-block .right-align{
+    text-align: right;
 }
 
 #secondary-page div#about .fit-strong-right {
@@ -8557,23 +8587,41 @@ h1.main-title span.big-text{
 }
 
 h1.main-title span.big-text sup{
-    font-size: 35px;
+    font-size: 17px;
+    line-height: 10px;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 50%;
+    top: -20px;
 }
 
+
+
 #secondary-page .slide-container .ms-slide h3.ms-layer{
-    text-align: center;
+    text-align: left;
     left: 0 !important;
-    width: 100% !important;
+    width: 1000px !important;
     opacity: 1 !important;
 }
 
 #secondary-page .slide-container .ms-slide h5.ms-layer{
-    text-align: center;
+    text-align: right;
     left: 0 !important;
-    width: 100% !important;
+    width: 1000px !important;
     opacity: 1 !important;
     top: 350px;
-    font-size: 50px;
+    font-size: 30px;
+}
+
+#secondary-page .slide-container .ms-slide h5.ms-layer:before{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 65px;
+    top: calc(50% - 1px);
+    right: 305px;
+    background: white;
 }
 
 #secondary-page #resources .facts-content {
