@@ -8587,10 +8587,10 @@ h1.main-title span.big-text{
 }
 
 h1.main-title span.big-text sup{
-    font-size: 17px;
+    font-size: 10px;
     line-height: 10px;
-    padding: 5px;
-    border: 3px solid white;
+    padding: 4px;
+    border: 2px solid white;
     border-radius: 50%;
     top: -20px;
 }
